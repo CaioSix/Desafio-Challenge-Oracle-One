@@ -26,26 +26,30 @@ formCript.addEventListener('submit', function(e) {
         }else{
             entradaDecripto = ''
         }
-        // let palavra = frase.toLowerCase();
-        
-    
-    
-    
-        // return palavra
-
-        
+   
     };
     
     
 
-    
-    
 formDecripto.addEventListener('submit', function(e) {
         e.preventDefault();
 })
 
 function Decripto(){
-    let texto = document.getElementById('entradaCript').innerHTML = inputDecripto.value
+    if (entradaCript === ''){
+        let descriptar = inputDecripto.value.toLowerCase()
+        .replaceAll("enter", "e")
+        .replaceAll("imes", "i")
+        .replaceAll("ai", "a")
+        .replaceAll("ober", "o")
+        .replaceAll("ufat", "u");
+
+        let texto = document.getElementById('entradaCript').innerHTML = descriptar
+
+    }else{
+        entradaCript = '';
+    }
+
 
     
 };
