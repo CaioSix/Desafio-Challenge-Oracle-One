@@ -1,0 +1,80 @@
+html{
+    background-image: url("https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif");
+    background-repeat: repeat;
+}
+
+body{
+    margin: 0%;
+}
+h1{ 
+    color:white;
+    text-align: center;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa1 {
+    /* background-color: black;  */
+    width: 45%;
+    height:50vh;
+    
+    
+}
+
+.caixa2{
+    /* background-color:black; */
+    width: 45%;
+    height:50vh;
+}
+
+
+
+#entradaCript {
+    background-color: rgba(0, 0, 0, 0.712);
+    border: none;
+    width: 45%;
+    height: 30vh;
+    padding: 3rem;
+    padding-bottom: 5rem;
+    resize: none;
+    outline: none;
+    color: white;
+    font-size: 2em;
+  }
+
+  #entradaDecripto {
+    background-color: rgba(0, 0, 0, 0.712);
+    border: none;
+    width: 45%;
+    height: 30vh;
+    padding: 3rem;
+    padding-bottom: 5rem;
+    resize: none;
+    outline: none;
+    color: white;
+    font-size: 2em;
+  }
+
+
+  .btn {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.888rem 6rem;
+    cursor: pointer;
+    transition: all 0.9s;
+    font-weight: 700;
+  }
